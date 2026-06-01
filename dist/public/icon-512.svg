@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="80" fill="#080c18"/>
+  <rect x="20" y="20" width="472" height="472" rx="64" fill="#0f172a"/>
+  <!-- Phone shape -->
+  <rect x="156" y="80" width="200" height="330" rx="24" fill="#1e293b" stroke="#6366f1" stroke-width="4"/>
+  <rect x="176" y="104" width="160" height="260" rx="8" fill="#080c18"/>
+  <!-- Screen content - APK box -->
+  <rect x="196" y="140" width="120" height="120" rx="12" fill="#1e3a5f"/>
+  <text x="256" y="220" font-family="monospace" font-size="56" font-weight="bold" fill="#6366f1" text-anchor="middle">📦</text>
+  <!-- Arrow down -->
+  <path d="M256 290 L256 330 M236 310 L256 330 L276 310" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Bottom bar (home button) -->
+  <rect x="226" y="388" width="60" height="8" rx="4" fill="#334155"/>
+  <!-- APK text -->
+  <text x="256" y="460" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#6366f1" text-anchor="middle" letter-spacing="-2">APK</text>
+</svg>

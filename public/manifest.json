@@ -1,0 +1,44 @@
+{
+  "name": "ConstruAPK Pro",
+  "short_name": "ConstruAPK",
+  "description": "Converta seu PWA em APK Android nativo",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080c18",
+  "theme_color": "#6366f1",
+  "lang": "pt-BR",
+  "categories": ["productivity", "utilities", "developer"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Importar ZIP",
+      "short_name": "Importar",
+      "url": "./#import"
+    },
+    {
+      "name": "GitHub",
+      "short_name": "GitHub",
+      "url": "./#github"
+    },
+    {
+      "name": "Exportar APK",
+      "short_name": "Exportar",
+      "url": "./#export"
+    }
+  ]
+}
